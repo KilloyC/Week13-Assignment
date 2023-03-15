@@ -1,0 +1,43 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  .logo {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    padding-right: 2rem;
+    text-decoration: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1rem 1rem;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #c6f1e8;
+    color: black;
+  }
+  
+  .active {
+    background-color: #04aaa5;
+  }
+
+  @media screen and (max-width: 400px) {
+    ul li {
+      float: none;
+      width: 100%;
+    }
+  }
