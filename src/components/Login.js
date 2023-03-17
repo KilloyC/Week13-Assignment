@@ -18,6 +18,7 @@ function Login() {
 
                     <button type="submit">Submit</button>
                 </div>
+                <p className='member'>Not a member? <a href="#!">Register</a></p>
             </form>
         </div>
     )
